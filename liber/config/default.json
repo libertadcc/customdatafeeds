@@ -1,0 +1,18 @@
+{
+  "port": 8080,
+  "csv-provider": {
+    "sources": {
+      "my-data": {
+        "url": "../data/catalogo.csv",
+        "geometryColumns": {
+          "Longitude": "longitude",
+          "Latitude": "latitude"
+        },
+        "delimiter": ",",
+        "metadata": {
+          "idField": "id"
+        }
+      }
+    }
+  }
+}
